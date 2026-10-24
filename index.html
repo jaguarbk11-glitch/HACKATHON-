@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111d">
+  <meta name="description" content="SignalTrace AI researches public-company evidence, tracks contradictions, and tests financial hypotheses.">
+  <title>SignalTrace AI | Research terminal</title>
+  <style>
+    :root{color-scheme:dark;--bg:#08111d;--panel:#101d2c;--line:#26394e;--text:#edf4fb;--muted:#9aadc2;--teal:#62e2d5;--lime:#c9ee88;--pink:#ff9bb0}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 76% 0%,rgba(61,113,143,.25),transparent 38%),radial-gradient(ellipse at 6% 70%,rgba(54,116,109,.13),transparent 32%),var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh}
+    .shell{max-width:1100px;margin:auto;padding:26px 24px 64px}.nav{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(150,181,212,.16);padding:8px 0 20px}.brand{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:800;letter-spacing:.14em}.mark{display:grid;place-items:center;width:35px;height:35px;border:1px solid rgba(98,226,213,.48);border-radius:11px;color:var(--teal);background:rgba(98,226,213,.08);font-size:19px}.nav a,.text-link{color:var(--teal);text-decoration:none;font-size:13px}.hero{padding:86px 0 66px;max-width:830px}.eyebrow{color:var(--teal);font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.hero h1{font-size:clamp(42px,8vw,82px);line-height:.99;letter-spacing:-.055em;margin:19px 0 22px;max-width:760px}.hero h1 span{color:var(--teal)}.hero p{color:var(--muted);font-size:17px;line-height:1.75;max-width:660px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border-radius:10px;text-decoration:none;font-weight:750;font-size:14px;transition:transform .18s,filter .18s}.button:hover{transform:translateY(-2px);filter:brightness(1.1)}.primary{background:linear-gradient(105deg,var(--teal),#a5e6cc);color:#07151b}.secondary{color:var(--text);border:1px solid var(--line);background:rgba(16,29,44,.72)}.notice{display:flex;gap:13px;align-items:flex-start;margin-top:26px;padding:15px 17px;border:1px solid rgba(255,155,176,.22);border-radius:12px;background:rgba(255,155,176,.055);color:#d9c5cd;font-size:13px;line-height:1.65}.notice strong{color:#ffc1cd}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:0 0 18px}.section-head h2{font-size:23px;letter-spacing:-.035em;margin:0}.section-head p{color:var(--muted);font-size:12px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.item{padding:19px;border:1px solid var(--line);border-radius:13px;background:linear-gradient(145deg,rgba(16,29,44,.9),rgba(10,20,32,.93));min-height:142px}.number{font:600 11px ui-monospace,monospace;color:var(--lime)}.item h3{font-size:15px;margin:13px 0 7px}.item p{margin:0;color:var(--muted);font-size:12px;line-height:1.65}.foot{display:flex;justify-content:space-between;gap:20px;border-top:1px solid rgba(150,181,212,.16);margin-top:54px;padding-top:19px;color:#788da4;font-size:11px}.foot a{color:var(--muted);text-decoration:none}
+    @media(max-width:720px){.shell{padding:19px 16px 45px}.hero{padding:62px 0 48px}.hero p{font-size:15px}.grid{grid-template-columns:1fr}.item{min-height:0}.section-head{display:block}.section-head p{margin-top:8px}.foot{display:block;line-height:2}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="nav">
+      <div class="brand"><span class="mark" aria-hidden="true">⌁</span><span>SIGNALTRACE AI</span></div>
+      <a href="https://github.com/bhavyajkansara-design/signaltrace-ai">SOURCE REPOSITORY ↗</a>
+    </header>
+    <section class="hero">
+      <div class="eyebrow">ATMOS 2026 · FINDING THE NEXT SIGNAL</div>
+      <h1>Research the story<br><span>behind the numbers.</span></h1>
+      <p>Trace public-company evidence across filings, financial disclosures, sector context, and counterarguments. Keep every source visible. Test what could prove a hypothesis wrong.</p>
+      <div class="actions">
+        <a class="button primary" href="https://share.streamlit.io/deploy?repository=bhavyajkansara-design/signaltrace-ai&amp;branch=main&amp;mainModule=app.py">Deploy the research app <span aria-hidden="true">↗</span></a>
+        <a class="button secondary" href="https://github.com/bhavyajkansara-design/signaltrace-ai/blob/main/README.md">Setup &amp; project details</a>
+      </div>
+      <div class="notice"><span aria-hidden="true">!</span><span><strong>Live app hosting required.</strong> GitHub Pages serves this landing page only; it cannot run the Python Streamlit research app. Use “Deploy the research app” to launch it on Streamlit Community Cloud. The app URL becomes available after deployment.</span></div>
+    </section>
+    <section aria-labelledby="workflow">
+      <div class="section-head"><h2 id="workflow">An evidence-first research workflow</h2><p>RETRIEVAL IS NOT VERIFICATION</p></div>
+      <div class="grid">
+        <article class="item"><span class="number">01 / DISCOVER</span><h3>Plan the research</h3><p>Choose a sector track, listed company, reporting period, and question. Explore track-specific financial signals.</p></article>
+        <article class="item"><span class="number">02 / CONNECT</span><h3>Trace public sources</h3><p>Search company material, exchange disclosures, public-sector sources, peers, and financial news with source links retained.</p></article>
+        <article class="item"><span class="number">03 / CHALLENGE</span><h3>Review contradictions</h3><p>Inspect source passages, compare periods, test alternatives, and record conditions that could falsify a claim.</p></article>
+      </div>
+    </section>
+    <footer class="foot"><span>Educational research tool · Not investment advice · Verify source claims independently</span><span><a href="https://github.com/bhavyajkansara-design/signaltrace-ai">GitHub</a> · <a href="https://share.streamlit.io/deploy?repository=bhavyajkansara-design/signaltrace-ai&amp;branch=main&amp;mainModule=app.py">Streamlit deployment</a></span></footer>
+  </main>
+</body>
+</html>
